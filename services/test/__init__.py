@@ -12,9 +12,9 @@ class TestHandler(BaseHandler):
         result_bool_obj: str = self.model.pong if params.get('request') == 'ping' else '****'
         return result_bool_obj
 
-    async def handle_get_generate_list(self, params: dict) -> dict:
+    async def handle_get_generate_list(self, params: dict) -> list:
         n: int = params.get('n', None)
-        result_dict_obj: dict = self.model.generate_list(n).dict()
+        result_dict_obj: list = self.model.generate_list(n)
         return result_dict_obj
 
     def __init__(self) -> None:
