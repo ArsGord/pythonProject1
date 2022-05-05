@@ -1,0 +1,37 @@
+[
+  {
+    "code": -32700,
+    "message": "Parse Error",
+    "data": "Invalid JSON was received by the server.\nAn error occurred on the server while parsing the JSON text."
+  },
+  {
+    "code": -32600,
+    "message": "Invalid Request",
+    "data": "The JSON sent is not a valid Request object."
+  },
+  {
+    "code": -32601,
+    "message": "Method not found",
+    "data": "The method does not exist / is not available."
+  },
+  {
+    "code": -32602,
+    "message": "Invalid params",
+    "data": "Invalid method parameter(s)."
+  },
+  {
+    "code": -32603,
+    "message": "Internal error",
+    "data": "Internal JSON-RPC error."
+  },
+  {
+    "code": -32000,
+    "message": "Server error",
+    "data": "Something went wrong on the server side."
+  },
+  {
+    "code": -32001,
+    "message": "Timeout error",
+    "data": "Timeout set to value that equal or less than 0."
+  }
+]
